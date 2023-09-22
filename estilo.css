@@ -1,0 +1,110 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif; 
+ }
+
+ body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #3f1d66, #7a1637, #55167a);
+ }
+
+ .quadrado{
+   background-color: #9b0c3c;
+   padding: 6px;
+   width: 359px;
+   height: 450px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+   border-radius: 15px;
+
+ }
+
+ form{
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+ }
+
+ .buttonsForm{
+    margin-top: 40px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 #7d18b8;
+ }
+
+ .buttonsForm button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+ }
+
+.btnColor {
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    background: linear-gradient(to right,#8d0b32,#5d279b );
+    border-radius: 35px;
+    transition: .3s;
+}
+
+input[ type="text"], input[type="password"] {
+    border: none;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+}
+
+button[type="submit"]{
+    background: #661d5a;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0px;
+    font-size: 15px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.divCheck{
+    margin: 10px 0 0 5px;
+    width: 100%;
+    font-size: 13px;
+}
+
+#Entrar{
+    left: 30px;
+}
+
+#Cadastre{
+    left: 450px;
+}
+
+i{
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+.iEmail {
+    top: 40px;
+}
+

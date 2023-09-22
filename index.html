@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="quadrado">
+    <div class="buttonsForm">
+        <div class="btnColor"></div>
+          <button id="btnEntrar">Entrar</button> 
+          <button id="btnCadastre">Cadastre</button>
+    </div>
+
+    <form id="Entrar">
+    <input type="text" placeholder="Email" required>
+    <i class="fas fa-envelope iEmail"></i>
+    <input type="password" placeholder = "Senha" required />
+    <div class="divCheck">
+        <input type="checkbox" />
+        <span>Relembre a Senha</span>
+    </div>
+    <button type="submit">Entre</button>
+    </form>   
+
+    <form id="Cadastre">
+        <input type="text" placeholder="Arquivo" required>
+        <input type="password" placeholder = "Numero" required />
+        <input type="text" placeholder = "Link" required />
+        <div class="divCheck">
+            <input type="checkbox" required />
+            <span>Ajuda</span>
+        </div>
+        <button type="submit">Cadrastre</button>
+        </form>   
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
